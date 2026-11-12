@@ -1,0 +1,165 @@
+----- CLI crash report at 2026-11-12T17:08:39.628Z
+Error Trace
+FailedToBuildAstroApp: FailedToBuildAstroApp
+    at reportFailure (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:85:32)
+    at astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:138:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+caused by: Error: Command failed with exit code 1: npx --no-install astro build
+[31m[1m14:08:36[22m [ERROR] [@wix/astro-wix-hosting-adapter][39m An unhandled error occurred while running the [1m"astro:config:setup"[22m hook
+The URL must be of scheme file
+  [1mLocation:[22m
+    [4mC:\Users\ProBook\HP-Solucoes-Projeto\node_modules\astro\dist\integrations\hooks.js:191:67[24m
+  [1mStack trace:[22m
+[2m    at fileURLToPath (node:internal/url:1663:11)
+    at astro:config:setup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/@astrojs/cloudflare/dist/index.js:354:11)
+    at async withTakingALongTimeMsg (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:34:12)
+    at async runHookConfigSetup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:144:35)
+    at async AstroBuilder.run (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/core/build/index.js:200:23)[22m
+    at makeError (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\lib\error.js:60:11)
+    at handlePromise (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\index.js:124:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:136:7)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+Error Info
+{}
+----- CLI crash report at 2026-11-12T17:38:19.124Z
+Error Trace
+FailedToBuildAstroApp: FailedToBuildAstroApp
+    at reportFailure (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:85:32)
+    at astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:138:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+caused by: Error: Command failed with exit code 1: npx --no-install astro build
+[31m[1m14:38:18[22m [ERROR] [@wix/astro-wix-hosting-adapter][39m An unhandled error occurred while running the [1m"astro:config:setup"[22m hook
+The URL must be of scheme file
+  [1mLocation:[22m
+    [4mC:\Users\ProBook\HP-Solucoes-Projeto\node_modules\astro\dist\integrations\hooks.js:191:67[24m
+  [1mStack trace:[22m
+[2m    at fileURLToPath (node:internal/url:1663:11)
+    at astro:config:setup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/@astrojs/cloudflare/dist/index.js:355:11)
+    at async withTakingALongTimeMsg (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:34:12)
+    at async runHookConfigSetup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:144:35)
+    at async AstroBuilder.run (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/core/build/index.js:200:23)[22m
+    at makeError (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\lib\error.js:60:11)
+    at handlePromise (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\index.js:124:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:136:7)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+Error Info
+{}
+----- CLI crash report at 2026-11-12T17:39:14.630Z
+Error Trace
+FailedToBuildAstroApp: FailedToBuildAstroApp
+    at reportFailure (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:85:32)
+    at astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:138:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+caused by: Error: Command failed with exit code 1: npx --no-install astro build
+[31m[1m14:39:14[22m [ERROR] [@wix/astro-wix-hosting-adapter][39m An unhandled error occurred while running the [1m"astro:config:setup"[22m hook
+The URL must be of scheme file
+  [1mLocation:[22m
+    [4mC:\Users\ProBook\HP-Solucoes-Projeto\node_modules\astro\dist\integrations\hooks.js:191:67[24m
+  [1mStack trace:[22m
+[2m    at fileURLToPath (node:internal/url:1663:11)
+    at astro:config:setup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/@astrojs/cloudflare/dist/index.js:355:11)
+    at async withTakingALongTimeMsg (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:34:12)
+    at async runHookConfigSetup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:144:35)
+    at async AstroBuilder.run (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/core/build/index.js:200:23)[22m
+    at makeError (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\lib\error.js:60:11)
+    at handlePromise (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\index.js:124:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:136:7)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+Error Info
+{}
+----- CLI crash report at 2026-11-12T17:46:16.402Z
+Error Trace
+FailedToBuildAstroApp: FailedToBuildAstroApp
+    at reportFailure (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:85:32)
+    at astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:138:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+caused by: Error: Command failed with exit code 1: npx --no-install astro build
+[31m[1m14:46:15[22m [ERROR] [@wix/astro-wix-hosting-adapter][39m An unhandled error occurred while running the [1m"astro:config:setup"[22m hook
+The URL must be of scheme file
+  [1mLocation:[22m
+    [4mC:\Users\ProBook\HP-Solucoes-Projeto\node_modules\astro\dist\integrations\hooks.js:191:67[24m
+  [1mStack trace:[22m
+[2m    at fileURLToPath (node:internal/url:1663:11)
+    at astro:config:setup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/@astrojs/cloudflare/dist/index.js:354:11)
+    at async withTakingALongTimeMsg (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:34:12)
+    at async runHookConfigSetup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:144:35)
+    at async AstroBuilder.run (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/core/build/index.js:200:23)[22m
+    at makeError (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\lib\error.js:60:11)
+    at handlePromise (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\index.js:124:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:136:7)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+Error Info
+{}
+----- CLI crash report at 2026-11-12T17:48:35.138Z
+Error Trace
+FailedToBuildAstroApp: FailedToBuildAstroApp
+    at reportFailure (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:85:32)
+    at astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:138:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+caused by: Error: Command failed with exit code 1: npx --no-install astro build
+[31m[1m14:48:34[22m [ERROR] [@wix/astro-wix-hosting-adapter][39m An unhandled error occurred while running the [1m"astro:config:setup"[22m hook
+The URL must be of scheme file
+  [1mLocation:[22m
+    [4mC:\Users\ProBook\HP-Solucoes-Projeto\node_modules\astro\dist\integrations\hooks.js:191:67[24m
+  [1mStack trace:[22m
+[2m    at fileURLToPath (node:internal/url:1663:11)
+    at astro:config:setup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/@astrojs/cloudflare/dist/index.js:354:11)
+    at async withTakingALongTimeMsg (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:34:12)
+    at async runHookConfigSetup (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/integrations/hooks.js:144:35)
+    at async AstroBuilder.run (file:///C:/Users/ProBook/HP-Solucoes-Projeto/node_modules/astro/dist/core/build/index.js:200:23)[22m
+    at makeError (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\lib\error.js:60:11)
+    at handlePromise (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\execa\index.js:124:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async astroBuild (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:136:7)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:161:11)
+    at async runCommand (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\render-command.tsx:213:5)
+    at async _Command.<anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli-astro-commands\src\commands\build.ts:157:7)
+    at async _Command.parseAsync (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\node_modules\commander\lib\command.js:1104:5)
+    at async <anonymous> (C:\Users\ProBook\HP-Solucoes-Projeto\node_modules\@wix\cli\src\index.tsx:119:25)
+Error Info
+{}
